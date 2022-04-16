@@ -12,7 +12,6 @@ int selectMenu(){
 	printf("5. 제품 저장\n");
 	printf("6. 제품 로딩\n");
 	printf("7. 제품 검색\n");
-
 	printf("=> 원하는 메뉴는?\n");
 	scanf("%d",&menu);
 
