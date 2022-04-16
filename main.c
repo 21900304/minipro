@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "product.h"
 #include "manager.h"
-
 int main(){
 #ifdef DEBUG
 	printf("==> debugmode\n");
