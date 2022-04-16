@@ -1,0 +1,19 @@
+typedef struct{
+	char name[20];
+        char des[20];
+        int kg;
+	int price;
+	int num;
+	int count;
+} Product;
+
+int createProduct(Product *p);
+void listProduct(Product *p);
+int readProduct(Product p);
+int updateProduct(Product *p);
+int deleteProduct(Product *p);
+
+void saveProduct(Product *p);
+void loadProduct(Product *p);
+void sreachProduct(Product *p);
+	
