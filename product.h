@@ -15,4 +15,6 @@ int deleteProduct(Product *p);
 void saveProduct(Product *p,int count);
 void loadProduct(Product *p,int count);
 void sreachProduct(Product *p,int count);
+
+
 	
